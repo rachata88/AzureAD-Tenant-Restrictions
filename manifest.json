@@ -1,0 +1,18 @@
+﻿{
+  "manifest_version": 2,
+  "name": "Azure AD Tenant Restrictions",
+  "author": "Rachata Watthanawong",
+  "version": "1.0.0",
+  "description": "Azure Active Directory Tenant Restrictions Browser Extension",
+  "permissions": [
+    "*://login.microsoftonline.com/*",
+    "*://login.microsoft.com/*",
+    "*://login.windows.net/*",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": true
+  }
+}
